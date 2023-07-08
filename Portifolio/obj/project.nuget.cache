@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "v4oq+n1CbdtioTOe7TVdvHS0vd10qOzhSOpARsJsg8C5lQGwhwYYu5UPHn0O9wLU1QCDeLP4U6p5JKigfN7tfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mthia\\source\\repos\\Portifolio\\Portifolio\\Portifolio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mthia\\.nuget\\packages\\microsoft.aspnetcore.authentication.certificate\\7.0.8\\microsoft.aspnetcore.authentication.certificate.7.0.8.nupkg.sha512",
+    "C:\\Users\\mthia\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\mthia\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\mthia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\mthia\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\mthia\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\mthia\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\mthia\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512"
+  ],
+  "logs": []
+}

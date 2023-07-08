@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portifolio", "Portifolio\Portifolio.csproj", "{6388D250-41BE-4EC7-B496-8EB5DAF2DD59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAngular", "WAngular\WAngular.csproj", "{27F77162-F193-45D5-8C28-68C895387DA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6388D250-41BE-4EC7-B496-8EB5DAF2DD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6388D250-41BE-4EC7-B496-8EB5DAF2DD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6388D250-41BE-4EC7-B496-8EB5DAF2DD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6388D250-41BE-4EC7-B496-8EB5DAF2DD59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F77162-F193-45D5-8C28-68C895387DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F77162-F193-45D5-8C28-68C895387DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F77162-F193-45D5-8C28-68C895387DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F77162-F193-45D5-8C28-68C895387DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D28890A8-7AB5-411B-A27B-6C4C27454B04}
+	EndGlobalSection
+EndGlobal

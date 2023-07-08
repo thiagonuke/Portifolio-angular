@@ -1,0 +1,95 @@
+﻿
+
+<style>
+    @@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Titan+One&display=swap');
+    body{
+        background-color: #111832 !important;
+    }
+
+    .navbar-brand{
+        font-family: 'Titan One', cursive;
+    }
+
+    .login-button{
+        width: 150px;
+        height:50px;
+        border: 1px solid white;
+        background: transparent;
+        border-radius:40px;
+        font-size: 20px;
+        color: white !important;
+        font-family: 'Titan One', cursive;
+    } 
+    .login{
+        cursor:pointer;
+        text-decoration-line: none;
+    }
+    .c{
+        font-family: 'Aldrich', sans-serif;
+        text-decoration-line: none;
+        color: white !important;
+        cursor: pointer;
+    }
+
+    .footer{
+        border-top: 1px solid #585050;
+    }
+
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Portifolio</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Portifolio.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3">
+            <div class="container-fluid ">
+                <div class="col-md-2">
+                    <a class="navbar-brand text-white d-flex justify-content-end" style="font-size: 40px !important;" asp-controller="Home" asp-action="Index">Nuke</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-md-5 d-flex justify-content-around">
+                    <div class="col-md-4 d-flex justify-content-end align-items-center">
+                        <a class="c">Contato</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="login">
+                            <div class="login-button d-flex justify-content-center align-items-center">
+                                Login
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer text-muted">
+        <div class="container">
+            &copy; 2023 - Portifolio Thiago Almeida
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
